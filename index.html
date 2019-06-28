@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="Style/style.css">
+  <script src="Script/script.js"></script>
+  <title>Guesse My Number</title>
+</head>
+<body class="main">
+  <section class="main-header">
+    <h1>Guessing My Number Game</h1>
+  </section>
+  <section class="main-content">
+      <p>I have thought of a random number between 1 and 100. Let see if you can guess it, 
+      you got 10 turns. I will tell you if your guess was too high or too low.</p>
+      <div class="main-content__form">
+        <label for="field">Enter your guess:</label>
+        <input type="text" id="Field" class="guessField" />
+        <input type="submit" value="Submit" class="guessSubmit"/>
+      </div>
+  </section>
+    <footer class="main-result">
+      <div class="main-result__resultParas resultParas">
+        <p class="main-result__guesses guesses empty"></p>
+        <p class="lastResult"></p>
+        <p class="main-result__lowOrHi lowOrHi empty"></p>
+      </div>
+    </footer>
+  </body>
+  </html>
+  
